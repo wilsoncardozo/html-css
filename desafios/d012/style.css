@@ -1,44 +1,72 @@
 @charset "UTF-8";
 
-body {
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
     font-size: 50px;
     font-family: 'Sriracha', cursive;
 }
+
 header {
     background-color: black;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-top: -65px;
-    margin-bottom: 100px;
-    padding: 27px;
-    font-family: 'Passion One', cursive;
-    font-size: 60px;
     color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
     text-align: center;
 }
-header a {
-    text-decoration: none;
-    color: white;
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
+
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
+    padding-bottom: 50px;
 }
-h1 {
-    margin-bottom: 5px;
+
+header a, footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
 }
-a :hover {
+
+header a:hover, footer a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.17);
+    width: 700px;
 }
 footer {
     background-color: black;
-    padding: 1px;
+    padding: 10px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     text-align: center;
-}
-footer a {
-    color: white;
-    text-decoration: none;
 }
