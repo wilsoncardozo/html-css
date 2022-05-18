@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
 body {
-    background-color: darkgoldenrod;
+    font-size: 50px;
+    font-family: 'Sriracha', cursive;
+}
+header {
+    background-color: black;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -65px;
+    margin-bottom: 100px;
+    padding: 27px;
+    font-family: 'Passion One', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+h1 {
+    margin-bottom: 5px;
+}
+a :hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    padding: 1px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
 }
