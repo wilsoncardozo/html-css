@@ -75,6 +75,13 @@ section.imagem {
     background-attachment: fixed;
 }
 
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.302);
+    text-shadow: 1px 1px 0px black;
+}
+
 section#img01 {
     background-image: url('./imagens/background001.jpg');
     background-position: right center;
@@ -85,12 +92,6 @@ section#img02 {
     background-position: right center;
 }
 
-section.imagem > p {
-    display: inline-block;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.302);
-    text-shadow: 1px 1px 0px black;
-}
 footer {
     background-color: black;
     padding: 10px;
